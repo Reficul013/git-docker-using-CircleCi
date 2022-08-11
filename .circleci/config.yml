@@ -12,11 +12,11 @@ jobs:
             . venv/bin/activate
             pip install -r requirements.txt
 
-      - run:
-          name: Test with pytest
-          command: |
-            . venv/bin/activate
-            pytest
+      # - run:
+      #     name: Test with pytest
+      #     command: |
+      #       . venv/bin/activate
+      #       pytest
 
 workflows:
   version: 2
